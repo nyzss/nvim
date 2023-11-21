@@ -42,4 +42,12 @@ return {
     "luisiacc/gruvbox-baby",
     lazy = false,
   },
+  {
+    "tinted-theming/base16-vim",
+    -- lazy = false,
+  },
+  {
+    "rainglow/vim",
+    lazy = false,
+  },
 }
