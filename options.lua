@@ -8,6 +8,12 @@ return {
     signcolumn = "no", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
     foldcolumn = "0",
+    shell = "pwsh",
+    shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;",
+    shellredir = "-RedirectStandardOutput %s -NoNewWindow -Wait",
+    shellpipe = "2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode",
+    shellquote = "",
+    shellxquote = "",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
