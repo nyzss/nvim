@@ -50,4 +50,12 @@ return {
     "rainglow/vim",
     lazy = false,
   },
+  {
+    "sainnhe/gruvbox-material",
+    lazy = false,
+  },
+  {
+    "morhetz/gruvbox",
+    lazy = false,
+  },
 }

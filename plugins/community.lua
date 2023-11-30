@@ -4,7 +4,6 @@ return {
   -- example of importing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
-
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- COLORS
   { import = "astrocommunity.color.transparent-nvim" },
@@ -17,10 +16,11 @@ return {
   { import = "astrocommunity/diagnostics/lsp_lines-nvim", enabled = false },
 
   { import = "astrocommunity/diagnostics/trouble-nvim" },
+  { import = "astrocommunity/color/twilight-nvim" },
 
   { import = "astrocommunity/lsp/lsp-signature-nvim" },
 
-  { import = "astrocommunity/media/presence-nvim" },
+  -- { import = "astrocommunity/media/presence-nvim" },
   { import = "astrocommunity/media/vim-wakatime" },
   { import = "astrocommunity/motion/flash-nvim" },
 
@@ -51,7 +51,7 @@ return {
 
   --low levelish
   { import = "astrocommunity/pack/rust" },
-  { import = "astrocommunity/pack/cpp" },
+  -- { import = "astrocommunity/pack/cpp" },
   { import = "astrocommunity/pack/zig" },
 
   { import = "astrocommunity/bars-and-lines/statuscol-nvim" },
