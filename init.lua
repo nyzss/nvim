@@ -17,7 +17,7 @@ return {
     },
   },
   -- Set colorscheme to use
-  colorscheme = "kanagawa",
+  colorscheme = "lighthaus",
   vim.api.nvim_command "set noexpandtab",
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
